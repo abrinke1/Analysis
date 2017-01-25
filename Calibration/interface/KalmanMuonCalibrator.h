@@ -1,3 +1,7 @@
+
+#ifndef KALMAN_MUON_CALIBRATOR
+#define KALMAN_MUON_CALIBRATOR
+
 #include "TFile.h"
 #include "TH3F.h"
 #include "TH2F.h"
@@ -95,3 +99,5 @@ class KalmanMuonCalibrator {
   TH1I *covHistoMap_;
   TH1I *covBinMap_;
 };
+
+#endif  // #ifndef KALMAN_MUON_CALIBRATOR
